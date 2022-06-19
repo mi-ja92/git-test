@@ -1,0 +1,87 @@
+.myBody {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+.sidebarbutton {
+  display: block;
+}
+
+.slide {
+  visibility: hidden;
+  width: 300px;
+}
+
+.on {
+  visibility: visible;
+}
+
+ul li {
+  border: 2px solid grey;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 26px;
+  list-style: none;
+}
+
+li:nth-child(1) {
+  background-color: grey;
+}
+
+li:nth-child(2) {
+  background: red;
+}
+
+li:nth-child(3) {
+  background-color: rgb(13, 149, 194);
+}
+
+li:nth-child(4) {
+  background-color: green;
+}
+
+li:nth-child(5) {
+  background-color: yellow;
+}
+
+li:nth-child(6) {
+  background-color: rgb(190, 32, 190);
+}
+
+//Colors
+.gray-background {
+  background-color: gray;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.blue-background {
+  background-color: rgb(13, 149, 194);
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.purple-background {
+  background-color: rgb(190, 32, 190);
+}
+
+.radiobtn {
+  cursor: pointer;
+}
